@@ -9,6 +9,8 @@ hadron-cli requires node 8 or newer
 
 `npm i hadron-cli -g`
 
+NOTE: the library is in early stage of development, and it's still not published to npm!
+
 #### Creating simple command
 ```
 // ./commands/mySimpleCommand.js
