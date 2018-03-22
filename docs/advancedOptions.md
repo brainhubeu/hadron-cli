@@ -45,7 +45,7 @@ I got foo: fooValue
 ```
 
 
-#### Required options
+#### Default values
 You can define default values for options or set some options as required:
 ```
 // ./commands/commandWithDefault.js

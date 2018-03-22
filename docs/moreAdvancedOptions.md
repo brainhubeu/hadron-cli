@@ -23,11 +23,3 @@ $ hadron myApp:someCommand --foo.bar=barValue --foo.baz.baq=baqValue
 
 foo: { bar: 'barValue', baz: { baq: 'baqValue' } }
 ```
-
-#### Counting booleans
-If you provide boolean value more than once it will have integer value
-```bash
-$ hadron myApp:someCommand --foo --foo --foo
-
-foo: 3
-```
