@@ -1,7 +1,7 @@
 ## Configuration
-When running command hadron-cli will look for `.hadronconsolerc` file in current directory. You can overwrite some or all configuration options on per-project basis.
+When running command hadron-cli will look for `.hadronclirc` file in current directory. You can overwrite some or all configuration options on per-project basis.
 
-NOTE: `.hadronconsolerc` file must be JSON-parsable
+NOTE: `.hadronclirc` file must be JSON-parsable
 
 #### Customizing commands registry file path
 Default path to registry file is `./commands.js`. All non-absolute paths are resolved relative to current directory.
@@ -20,7 +20,7 @@ Default commands dir is `./commands`. All non-absolute paths are resolved relati
 ```
 
 #### Auto registry
-You can turn auto-registry option on in `.hadronconsolerc`. Auto-registry is turned off by default.
+You can turn auto-registry option on in `.hadronclirc`. Auto-registry is turned off by default.
 ```
 {
   "commandsDirectory": "./commands",

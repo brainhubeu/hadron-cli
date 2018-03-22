@@ -5,7 +5,7 @@ export const DEFAULT_FIELDS = {
   flags: 'flags',
 };
 
-export const CONFIG_FILENAME = '.hadronconsolerc';
+export const CONFIG_FILENAME = '.hadronclirc';
 
 export const DEFAULT_CONFIG = {
   commandsDirectory: './commands',
