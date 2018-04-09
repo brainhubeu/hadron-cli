@@ -7,7 +7,7 @@
     "url": "https://github.com/brainhubeu/hadron-cli"
   },
   "bin": {
-    "hadron": "./src/index.js"
+    "hadron": "./src/index.js -r babel-register"
   },
   "main": "lib/hadron-cli.js",
   "module": "lib/hadron-cli.mjs",
