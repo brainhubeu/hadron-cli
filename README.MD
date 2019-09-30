@@ -12,7 +12,7 @@ hadron-cli requires node 8 or newer
 NOTE: the library is in early stage of development, and it's still not published to npm!
 
 #### Creating simple command
-```
+```js
 // ./commands/mySimpleCommand.js
 
 export const name = 'myApp:mySimpleCommand';
@@ -32,7 +32,7 @@ export const flags = {
 ```
 
 #### Adding command to registry
-```
+```js
 // ./commands.js
 export default [
   'mySimpleCommand.js',
