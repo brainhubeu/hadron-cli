@@ -7,8 +7,6 @@ Library allowing you to define and run your own console commands in no time.
 #### Installation
 hadron-cli requires node 8 or newer
 
-`npm i hadron-cli -g`
-
 NOTE: the library is in early stage of development, and it's still not published to npm!
 
 #### Creating simple command
